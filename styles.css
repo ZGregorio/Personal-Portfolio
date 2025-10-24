@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  background-color: aqua;
+  font-family: "Roboto";
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.flex-item {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+}
+.flex-content-left {
+  text-align: left;
+  background-color: #405af0;
+}
+.flex-content-right {
+  text-align: left;
+  background-color: #d39696;
+}
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(font-family\Roboto\Roboto-VariableFont_wdth,wght.ttf);
+}
