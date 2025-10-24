@@ -1,4 +1,4 @@
-* {
+body {
   box-sizing: border-box;
   background-color: #0f172a;
   font-family: "Roboto";
@@ -14,12 +14,9 @@
 }
 
 .flex-item {
-  font-size: 30px;
   text-align: center;
   width: 100%;
   border: 1px solid black;
-  justify-content: center;
-  align-items: center;
 }
 
 .flex-content-left {
@@ -35,11 +32,13 @@
 .card-flex-content-left {
   text-align: center;
   padding: 20px;
+  width: 30%;
 }
 
 .card-flex-content-right {
-  text-align: center;
+  text-align: left;
   padding: 20px;
+  width: 70%;
 }
 
 .h1-sections {
@@ -48,16 +47,18 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: row;
   transition: 0.3s;
   width: 100%;
   border-radius: 5px;
-  margin: 5px;
-  background-color: #0f172a;
+  margin: 10px;
+  background-color: transparent;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  background-color: #16213b;
+  background-color: #243661;
 }
 
 h1 {
