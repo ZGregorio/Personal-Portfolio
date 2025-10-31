@@ -81,10 +81,14 @@ body {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  background-color: #243661;
+  background-color: #161d31;
   p b {
     color: #3DD9AC;
   }
+}
+
+.card:hover .card{
+  opacity: 0.5;
 }
 
 .flex-content-left-icons {
@@ -135,6 +139,10 @@ p {
   padding-top: 5px;
   margin: 0;
   letter-spacing: 0.03rem;
+}
+
+p b {
+  transition: 0.3s;
 }
 
 p2 {
