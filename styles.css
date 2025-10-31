@@ -111,7 +111,7 @@ body {
   inset: 0;
   opacity: 0.05;
   pointer-events: none;
-  background-image: radial-gradient(circle at var(--clientX, 50%) var(--clientY, 50%), #ffffff 0em, transparent 8em);
+  background-image: radial-gradient(circle at var(--clientX, 50%) var(--clientY, 50%), #ffffff 0em, transparent 24em);
 }
 
 a {
@@ -197,6 +197,9 @@ b {
   display: block;
   height: 0;
   flex-shrink: 0;
+  }
+  .spotlight {
+    opacity: 0;
   }
 } 
 
