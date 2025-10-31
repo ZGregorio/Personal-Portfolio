@@ -169,7 +169,7 @@ b {
 
 @font-face {
   font-family: "Inter";
-  src: url(font-family/Inter/Inter-VariableFont_opsz,wght.ttf) format('truetype');
+  src: url(font-family/Inter/Inter-VariableFont_opsz-wght.ttf) format('truetype');
 }
 
 @media screen and (max-width: 1020px) {
