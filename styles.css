@@ -106,6 +106,14 @@ body {
   filter: invert(94%) sepia(0%) saturate(617%) hue-rotate(143deg) brightness(88%) contrast(92%);
 }
 
+.spotlight {
+  position: fixed;
+  inset: 0;
+  opacity: 0.05;
+  pointer-events: none;
+  background-image: radial-gradient(circle at var(--clientX, 50%) var(--clientY, 50%), #ffffff 0em, transparent 8em);
+}
+
 a {
   text-decoration: none;
   color: #CCCCCC;
