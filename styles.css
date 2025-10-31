@@ -194,12 +194,16 @@ b {
   .card-flex-content-left,.card-flex-content-right {
     width: 100%;
   }
+  .flex-content-right {
+    overflow: hidden;
+  }
   .flex-content-right::before {
   content: "";
   display: block;
   height: 0;
   flex-shrink: 0;
   }
+  
   .spotlight {
     opacity: 0;
   }
