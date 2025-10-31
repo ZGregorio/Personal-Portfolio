@@ -82,12 +82,15 @@ body {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   background-color: #243661;
+  p b {
+    color: #3DD9AC;
+  }
 }
 
 .flex-content-left-icons {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: row;
+  gap: 5vw;
 }
 
 .icons {
@@ -97,6 +100,16 @@ body {
 
 .icons:hover {
   filter: invert(94%) sepia(0%) saturate(617%) hue-rotate(143deg) brightness(88%) contrast(92%);
+}
+
+a {
+  text-decoration: none;
+  color: #CCCCCC;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #3DD9AC;
 }
 
 img {
