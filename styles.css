@@ -145,10 +145,8 @@ h2 {
 p {
   font-size: 1rem;
   color: #aca7a7;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding: 5px;
   margin: 0;
-  letter-spacing: 0.03rem;
 }
 
 p b {
